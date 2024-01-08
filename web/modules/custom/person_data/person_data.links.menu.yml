@@ -1,0 +1,29 @@
+person_data.upload_csv:
+  title: Upload CSV
+  description: Upload CSV file
+  route_name: person_data.upload_form
+  weight: 10
+  menu_name: main
+person_data.add_salary:
+  title: Add Salary
+  description: Add salary details
+  route_name: person_data.add_form
+  weight: 10
+  menu_name: main
+person_data.delete_salary:
+  title: Delete Salary
+  description: Delete salary details
+  route_name: person_data.delete_form
+  weight: 10
+  menu_name: main
+entity.person_data_person.settings:
+  title: 'person'
+  description: 'Configure a person entity type.'
+  route_name:  entity.person_data_person.settings
+  parent: system.admin_structure
+
+entity.person_data_person.collection:
+  title: 'persons'
+  description: 'List of persons.'
+  route_name: entity.person_data_person.collection
+  parent: system.admin_content
